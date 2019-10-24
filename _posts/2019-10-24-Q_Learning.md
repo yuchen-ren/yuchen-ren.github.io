@@ -15,6 +15,6 @@ Q_Learning公式如下：
 
 
 $$
-Q(S,A) \leftarrow Q(S,A)+\alhpa[R+\gammamax_aQ(S',a)-Q(S,A)]
+Q(S,A) \leftarrow Q(S,A)+\alpha[R+\gamma max_aQ(S',a)-Q(S,A)]
 $$
 
