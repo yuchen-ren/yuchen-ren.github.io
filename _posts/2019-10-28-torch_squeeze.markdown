@@ -11,6 +11,7 @@ tags:
 ---
 
 > “ 使用pytorch中squeeze的函数记录，方便自己记忆”
+
 squeeze的用法主要就是对数据的维度进行压缩或者解压。
 例如，有：
 ```python
