@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "torchvision.transforms"
+subtitle:   " torch"
 date:       2019-10-28 12:00:00
 author:     "TerryRen"
 header-img: "img/post-bg-2015.jpg"
