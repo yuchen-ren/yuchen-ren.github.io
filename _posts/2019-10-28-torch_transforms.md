@@ -26,8 +26,8 @@ transforms.Compose([
 
 ## Resize
 把图片的尺寸resize到给定尺寸
-#如果输入为单个的int值，则将输入图像中最短的那条边resize到这个int值，长边根据比例进行调整，图像长宽比例不变
-#如果输入为(h,w),且h、w为int值，则将图像resize到(h,w)尺寸
+   如果输入为单个的int值，则将输入图像中最短的那条边resize到这个int值，长边根据比例进行调整，图像长宽比例不变
+   如果输入为(h,w),且h、w为int值，则将图像resize到(h,w)尺寸
 
 
 
