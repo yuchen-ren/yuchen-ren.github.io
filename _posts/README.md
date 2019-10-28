@@ -21,8 +21,15 @@ transforms.Compose([
     ])
 ```
 
-下面列举transforms常见函数
-Resize ：把图片的尺寸resize到给定尺寸
+下面列举transforms的常见类
+
+## Resize
+把图片的尺寸resize到给定尺寸
+#如果输入为单个的int值，则将输入图像中最短的那条边resize到这个int值，长边根据比例进行调整，图像长宽比例不变
+#如果输入为(h,w),且h、w为int值，则将图像resize到(h,w)尺寸
+
+
+
 ToTensor ：把图片转换成张量convert a PIL image to tensor (H*W*C) in range [0,255] to a torch.Tensor(C*H*W) in the range [0.0,1.0]
 Normalize ：Normalized an tensor image with mean and standard deviation
 
