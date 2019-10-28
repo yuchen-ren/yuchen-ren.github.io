@@ -23,7 +23,7 @@ transforms.Compose([
 ```
 
 下面列举transforms的常见类
-##Compose
+## Compose
 用来管理各个transforms操作，其中__call__方法就是对输入img遍历所有的transforms操作
 ```python
 class Compose(object):
