@@ -10,8 +10,8 @@ tags:
     - pytorch
 ---
 
-> “torchvision.transforms是pytorch中的图像预处理包，常见的数据预处理和数据增强等操作都通过它来实现。 ”
-
+> “ 使用pytorch常用函数记录，方便自己记忆”
+torchvision.transforms是pytorch中的图像预处理包，常见的数据预处理和数据增强等操作都通过它来实现。
 举个例子：
 ```python
 import torchvision.transforms as transforms
@@ -49,9 +49,9 @@ class Compose(object):
         return format_strin
 ```
 ## Resize
-把图片的尺寸resize到给定尺寸
-*如果输入为单个的int值，则将输入图像中最短的那条边resize到这个int值，长边根据比例进行调整，图像长宽比例不变
-*如果输入为(h,w),且h、w为int值，则将图像resize到(h,w)尺寸
+把图片的尺寸resize到给定尺寸。
+* 如果输入为单个的int值，则将输入图像中最短的那条边resize到这个int值，长边根据比例进行调整，图像长宽比例不变
+* 如果输入为(h,w),且h、w为int值，则将图像resize到(h,w)尺寸
 在__call__方法中调用了functional.py脚本中的resize函数来完成resize操作。因为输入是PIL Image，所以resize函数基本是在调用Image的各种方法。
 ```python
 class Resize(object):
@@ -87,7 +87,7 @@ class Resize(object):
         return self.__class__.__name__ + '(size={0}, interpolation={1})'.format(self.size, interpolate_str)
 ```
 
-##ToTensor
+## ToTensor
 把图片转换成张量。
 在做数据归一化之前必须要把PIL Image转成Tensor，其它resize或crop操作不需要。
 ```python
@@ -109,7 +109,6 @@ class ToTensor(object):
     def __repr__(self):
         return self.__class__.__name__+'()'
 ```
-Normalize ：Normalized an tensor image with mean and standard deviation
+## Normalize ：Normalized an tensor image with mean and standard deviation
 
 
-## 记录小白技术上的点点滴滴
