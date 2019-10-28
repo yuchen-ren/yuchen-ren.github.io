@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-10-28-torch_transforms.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-10-28-torch_transforms.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-10-28-torch_squeeze.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019-10-28-torch_squeeze.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/_posts/2013-10-24-helloworld - 副本.markdown" />
         <option value="$PROJECT_DIR$/_posts/README.md" />
         <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.md" />
-        <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown" />
         <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown" />
       </list>
     </option>
   </component>
@@ -748,15 +748,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
