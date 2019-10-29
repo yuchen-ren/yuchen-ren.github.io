@@ -13,7 +13,7 @@ tags:
 > “ 使用pytorch中transforms的Normalize记录，方便自己记忆”
 
 比如原来的tensor是三个维度的，则其作用就是先将输入归一化到(0,1)，再使用公式”(x-mean)/std”，将每个元素分布到(-1,1)
-```
+```python
 transforms.Normalize((.5,.5,.5),(.5,.5,.5))
 ```
 
