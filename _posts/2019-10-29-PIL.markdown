@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "torch_squeeze"
+title:      "PIL"
 subtitle:   " torch"
-date:       2019-10-28 16:00:00
+date:       2019-10-29 19:00:00
 author:     "TerryRen"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - pytorch
+    - PIL
 ---
 
 > “ 使用pytorch中squeeze的函数记录，方便自己记忆”
