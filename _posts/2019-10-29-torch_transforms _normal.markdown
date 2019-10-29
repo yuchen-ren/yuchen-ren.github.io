@@ -46,7 +46,7 @@ normalize = transforms.Normalize(mean = [0.485, 0.456, 0.406],
 尽管这时它的分布在-2.1 ~ 2.7，但是它的均值接近0，标准差接近1，采用ImageNet图片的均值和标准差作为标准化参数的目的是图像的各个像素的分布接近标准分布。
 
 
-#计算自己的数据集的均值和方差
+# 计算自己的数据集的均值和方差
 如果你想要计算自己的数据集的均值和方差，
 让其作为你的transforms.Normalize函数的参数的话可以参考[计算图像数据集的均值和方差](https://www.cnblogs.com/wanghui-garcia/p/11448460.html)
 
