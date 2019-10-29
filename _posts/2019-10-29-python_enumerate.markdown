@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "torch_squeeze"
+title:      "emun"
 subtitle:   " torch"
 date:       2019-10-28 16:00:00
 author:     "TerryRen"
