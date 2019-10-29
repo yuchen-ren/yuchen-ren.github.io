@@ -115,5 +115,38 @@ ToTensor的反向操作，把张量转换成PIL图片。
 Convert a tensor or an ndarray to PIL Image
 
 ## Normalize ：Normalized an tensor image with mean and standard deviation
+比如原来的tensor是三个维度的，则其作用就是先将输入归一化到(0,1)，再使用公式”(x-mean)/std”，将每个元素分布到(-1,1)
 
+## CenterCrop
+以输入图像img的中心作为中心点进行指定size的裁剪操作。
+在数据增强中一般不会去使用该方法。因为当size固定时，对于同一张img，N次CenterCrop的结果是一样的。
+size可以给单个int值，也可以给(int(size), int(size))
+```python
+class CenterCrop(object):
+    """Crops the given PIL Image at the center.
 
+    Args:
+        size (sequence or int): Desired output size of the crop. If size is an
+            int instead of sequence like (h, w), a square crop (size, size) is
+            made.
+    """
+
+    def __init__(self, size):
+        if isinstance(size, numbers.Number):
+            self.size = (int(size), int(size))
+        else:
+            self.size = size
+
+    def __call__(self, img):
+        """
+        Args:
+            img (PIL Image): Image to be cropped.
+
+        Returns:
+            PIL Image: Cropped image.
+        """
+        return F.center_crop(img, self.size)
+
+    def __repr__(self):
+        return self.__class__.__name__ + '(size={0})'.format(self.size)
+```
