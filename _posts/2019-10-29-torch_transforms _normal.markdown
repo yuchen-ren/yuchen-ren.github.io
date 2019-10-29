@@ -2,7 +2,7 @@
 layout:     post
 title:      "transforms.Normalize"
 subtitle:   " torch"
-date:       2019-10-28 12:00:00
+date:       2019-10-29 22:00:00
 author:     "TerryRen"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
