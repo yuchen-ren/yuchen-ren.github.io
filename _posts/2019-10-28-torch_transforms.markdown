@@ -110,6 +110,10 @@ class ToTensor(object):
     def __repr__(self):
         return self.__class__.__name__+'()'
 ```
+## ToPILImage
+ToTensor的反向操作，把张量转换成PIL图片。
+Convert a tensor or an ndarray to PIL Image
+
 ## Normalize ：Normalized an tensor image with mean and standard deviation
 
 
