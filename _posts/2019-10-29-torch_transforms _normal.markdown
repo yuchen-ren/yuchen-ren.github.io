@@ -18,10 +18,9 @@ transforms.Normalize((.5,.5,.5),(.5,.5,.5))
 ```
 
 transforms的源码中解释：
-
-$$
+```
  input[channel] = (input[channel] - mean[channel]) / std[channel]
-$$
+```
 
 假设你图片的数据范围是[0,1],那么如果mean = [.5, .5, .5],std = [.5, .5, .5],根据上述式子计算
 (0−0.5)/0.5=−1  ,(1-0.5)/0.5= 1就可将数据归一化到[-1,1]。
