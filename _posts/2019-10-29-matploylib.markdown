@@ -12,10 +12,8 @@ tags:
 
 > “ 使用pytorch中squeeze的函数记录，方便自己记忆”
 
-.fromarray
-.transpose
-Image.open(path)
-
+plt.figure
+plt.subplot
 
 
 
