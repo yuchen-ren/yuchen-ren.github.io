@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "pytorch"
+subtitle:   " torch"
+date:       2019-10-31 22:00:00
+author:     "TerryRen"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - pytorch
+---
+
+> “ 使用pytorch中transforms的Normalize记录，方便自己记忆”
+
+nn.Sequential
+resnet.parameters()
+param.requires_grad
+ nn.Linear
+ nn.BatchNorm1d
+ nn.Embedding
+ nn.LSTM
+ nn.Dropout
+ nn.Softmax
+ nn.LogSoftmax
