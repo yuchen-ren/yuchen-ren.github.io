@@ -10,7 +10,7 @@ tags:
     - pytorch
 ---
 
-> “ 使用pytorch中transforms的Normalize记录，方便自己记忆”
+> “ 使用pytorch中函数记录，方便自己记忆”
 
 nn.Sequential
 resnet.parameters()
@@ -22,3 +22,10 @@ param.requires_grad
  nn.Dropout
  nn.Softmax
  nn.LogSoftmax
+
+ 首先可以把这个函数理解为类型转换函数，将一个不可训练的类型Tensor转换成可以训练的类型parameter并将这个parameter绑定到这个module里面(net.parameter()中就有这个绑定的parameter，所以在参数优化的时候可以进行优化的)，所以经过类型转换这个self.v变成了模型的一部分，成为了模型中根据训练可以改动的参数了。使用这个函数的目的也是想让某些变量在学习的过程中不断的修改其值以达到最优化。
+
+ nn.Parameter
+
+ copy.deepcopy
+ F.log_softmax
