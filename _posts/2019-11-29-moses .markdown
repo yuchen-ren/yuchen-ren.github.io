@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "nlp预处理"
+subtitle:   " moses"
+date:       2019-11-29 16:30:00
+author:     "TerryRen"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - nlp
+---
+
+首先将moses工具包下载到本地：
+'''
+git clone https://github.com/moses-smt/mosesdecoder.git
+'''
+进入下载好mosesdecoder的文件夹，将并创建data文件夹，将要预处理的语料文件（此处以训练文件trian_en和train_zh为例）放入data文件夹，然后并打开终端。
+#normalize-punctuation
+normalize-punctuation就是做一个符号或者拼写标准化的过程，例如出现的中文符号会统一的转化为英文符号，一些稀奇古怪的拼写形式会转化为标准的字母。具体的处理我们使用moses提供的方法。
+'''
+perl scripts/tokenizer/normalize-punctuation.perl -l en < data/train_en > data/train-en-norm.en
+'''
+#tokenizer
+该步骤就是对英文进行分词，和汉字中的结巴分词功能一样，正常情况下英文分词只需要按照空格进行就可以了，但是英文中有一些特殊的情况需要进行处理，举例说明比如标点符号和单词之间一般是没有空格的，而我们分词的时候也需要将它区分出来。
+在执行此操作前，可以进入perl脚本中修改thread的数量。
