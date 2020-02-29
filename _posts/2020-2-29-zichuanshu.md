@@ -63,15 +63,7 @@ void test01()
 		{
 			cout << i << "是自传数" << endl;
 		}
-		/*if ((i > 100000000) ||(i<10))
-		{
-			cout << i << endl;
-		}
-
-		if (i == 0)
-		{
-			break;
-		}*/
+		
 	}
 }
 
