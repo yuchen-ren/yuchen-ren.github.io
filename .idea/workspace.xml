@@ -105,8 +105,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-3-1-leetcode119.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1199">
-                <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <first_editor relative-caret-position="-20">
+                <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -729,8 +729,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-1-leetcode119.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1199">
-            <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <first_editor relative-caret-position="-20">
+            <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
