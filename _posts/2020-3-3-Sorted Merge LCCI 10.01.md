@@ -29,130 +29,198 @@ B = [2,5,6],       n = 3
 
 
 
-## 迭代
-使用双指针的方式进行迭代，定义两个指针pre和cur，cur先指向head，然后不断遍历cur。
+## 直接合并后排序
+最直观的方法是先将数组B放进数组A的尾部，然后直接对整个数组进行排序。
 
-在遍历的过程中将 cur 的 next 指向 pre，用一个中间的变量来存储原来的指向，然后 pre 和 cur 往后进一位。
+时间复杂度：O((m+n)log(m+n))
+排序序列长度为 m+n，套用快速排序的时间复杂度即可，平均情况为O((m+n)log(m+n))。
 
+空间复杂度：O(log(m+n))
+排序序列长度为 m+n，套用快速排序的空间复杂度即可，平均情况为 O(log(m+n))。
 
 
 ### c++的code如下：
 
 
 ```c
-* struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        if(head==NULL) return NULL;
-        ListNode* pre=NULL;
-        ListNode* cur=head;
-        while(cur)
+    void merge(vector<int>& A, int m, vector<int>& B, int n) {
+        for(int i=0;i<n;i++)
+            A[m+i]=B[i];
+        sort(A.begin(),A.end());
+    }
+};
+```
+执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+
+内存消耗 :11.4 MB, 在所有 C++ 提交中击败了100.00%的用户
+### python的code如下：
+
+由于python的list的空间是动态增加的，所以首先需要讲A数组中多余的0删除掉，然后再讲B数组附到A的尾部，对A进行排序
+```python
+class Solution:
+    def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
+        """
+        Do not return anything, modify A in-place instead.
+        """
+        """
+        lens=len(A)-m
+        while(lens>0):
+            A.remove(0)
+            lens-=1
+        A.extend(B)
+        A.sort()
+        """
+        A[m: ] = B
+        A.sort()
+```
+执行用时 :36 ms, 在所有 Python3 提交中击败了89.15%的用户
+
+内存消耗 :13.4 MB, 在所有 Python3 提交中击败了100.00%的用户
+
+## 双指针外部空间法
+直接合并后排序没有利用数组 A 与 B 已经被排序的性质。
+为了利用这一性质，我们可以使用双指针方法对A和B进行遍历比较。
+新建一个中间数组C，每次从AB两个数组头部取出比较小的数字放到C中。
+### c++的code如下：
+
+```c
+class Solution {
+public:
+    void merge(vector<int>& A, int m, vector<int>& B, int n) {
+        int pa=0;
+        int pb=0;
+        vector<int> C;
+        while(pa<m || pb<n)
         {
-            ListNode* temp=cur->next;
-            cur->next=pre;
-            pre=cur;
-            cur=temp;
+            if(pa==m) 
+            {
+              C.push_back(B[pb]);
+              pb++;  
+            }
+            else if(pb==n)
+            {
+                C.push_back(A[pa]);
+                pa++;
+            }
+            else if(A[pa]<B[pb])
+            {
+                C.push_back(A[pa]);
+                pa++;
+            }
+            else{
+                C.push_back(B[pb]);
+                pb++;
+            }
         }
-        return pre;
+        A=C;
     }
 };
 ```
-执行用时 :8 ms, 在所有 C++ 提交中击败了78.19%的用户
+执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
 
-内存消耗 :10.2 MB, 在所有 C++ 提交中击败了5.00%的用户
+内存消耗 :11.7 MB, 在所有 C++ 提交中击败了100.00%的用户
 ### python的code如下：
 
 
 ```python
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-        if not head:
-            return 
-        pre=None
-        cur=head
-        while cur:
-            #中间变量temp存储当前节点的下一节点
-            temp=cur.next
-            cur.next=pre
-            #pre和cur往后移动一位
-            pre=cur
-            cur=temp
-        return pre
+    def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
+        """
+        Do not return anything, modify A in-place instead.
+        """
+        C = []
+        pa, pb = 0, 0
+        while pa < m or pb < n:
+            if pa==m:
+                C.append(B[pb])
+                pb+=1
+            elif pb==n:
+                C.append(A[pa])
+                pa+=1
+            elif A[pa]<B[pb]:
+                C.append(A[pa])
+                pa+=1
+            else:
+                C.append(B[pb])
+                pb+=1
+        A[:]=C
 ```
-执行用时 :40 ms, 在所有 Python3 提交中击败了65.15%的用户
+执行用时 :32 ms, 在所有 Python3 提交中击败了95.35%的用户
 
-内存消耗 :14.4 MB, 在所有 Python3 提交中击败了47.81%的用户
+内存消耗 :13.4 MB, 在所有 Python3 提交中击败了100.00%的用户
 
-## 递归
-递归处理好之后的，然后处理好现在的
-
-我们首先通过递归确定尾端结点，并进行翻转操作，返回代表着我已经将你下一个结点以后的结点都翻转好了，只需要翻转你和你的下一个结点。
+## 逆向双指针法
+方法 2 中之所以要使用临时变量，是因为如果直接合并到数组 A 中，A 中的元素可能会在取出之前被覆盖。
+那么如何直接避免覆盖 A 中的元素呢？观察可知，A 的后半部分是空的，可以直接覆盖而不会影响结果。
+因此可以指针设置为从后向前遍历，每次取两者之中的较大者放进 A 的最后面。
 
 
 ### c++的code如下：
 
-
 ```c
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        if(head==NULL || head->next==NULL) return head;
-        ListNode* cur=reverseList(head->next);
-        head->next->next=head;
-        head->next=NULL;
-        return cur;      
+    void merge(vector<int>& A, int m, vector<int>& B, int n) {
+        int pa=m-1;
+        int pb=n-1;
+        int end=m+n-1;
+        while(pa>=0 || pb>=0)
+        {
+            if(pa<0) 
+            {
+              A[end]=B[pb];
+              pb--;  
+            }
+            else if(pb<0)
+            {
+                A[end]=A[pa];
+                pa--;
+            }
+            else if(A[pa]>B[pb])
+            {
+                A[end]=A[pa];
+                pa--;
+            }
+            else{
+                A[end]=B[pb];
+                pb--;
+            }
+            end--;
+        }
     }
 };
 ```
-执行用时 :4 ms, 在所有 C++ 提交中击败了97.38%的用户
+执行用时 :4ms, 在所有 C++ 提交中击败了78.97%的用户
 
-内存消耗 :10.3 MB, 在所有 C++ 提交中击败了5.08%的用户
+内存消耗 :11.6 MB, 在所有 C++ 提交中击败了100.00%的用户
 ### python的code如下：
 
 
 ```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-        # 递归终止条件是当前为空，或者下一个节点为空
-        if head==None or head.next==None:
-            return head
-        # 这里的cur就是最后一个节点
-        cur=self.reverseList(head.next)
-        # 如果链表是 1->2->3->4->5，那么此时的cur就是5
-		# 而head是4，head的下一个是5，下下一个是空
-		# 所以head.next.next 就是5->4
-        head.next.next=head
-        # 防止链表循环，需要将head.next设置为空，比如5->4->5
-        head.next=None
-        # 每层递归函数都返回cur，也就是最后一个节点,也就是反转后的首节点
-        return cur
+    def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
+        """
+        Do not return anything, modify A in-place instead.
+        """
+        pa, pb = m-1, n-1
+        end=m+n-1
+        while pa >= 0 or pb >= 0:
+            if pa<0:
+                A[end]=B[pb]
+                pb-=1
+            elif pb<0:
+                A[end]=A[pa]
+                pa-=1
+            elif A[pa]>B[pb]:
+                A[end]=A[pa]
+                pa-=1
+            else:
+                A[end]=B[pb]
+                pb-=1
+            end-=1
 ```
-执行用时 :40 ms, 在所有 Python3 提交中击败了64.97%的用户
+执行用时 :32 ms, 在所有 Python3 提交中击败了95.35%的用户
 
-内存消耗 :18.1 MB, 在所有 Python3 提交中击败了7.94%的用户
-
+内存消耗 :13.4 MB, 在所有 Python3 提交中击败了100.00%的用户
