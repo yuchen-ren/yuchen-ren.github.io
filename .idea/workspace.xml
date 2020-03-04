@@ -12,25 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-3-Sorted Merge LCCI 10.01.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-3-Sorted Merge LCCI 10.01.md">
+      <file leaf-file-name="2020-3-4-Maximum Depth of Binary Tree104.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="670">
-                <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-3-3-Reverse String344.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="394">
-                <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <first_editor relative-caret-position="555">
+                <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -82,6 +69,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-3-leetcode10.01.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-3-Sorted Merge LCCI 10.01.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md" />
       </list>
     </option>
   </component>
@@ -281,13 +269,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/snackbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3318">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -679,8 +660,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="394">
-            <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <first_editor relative-caret-position="325">
+            <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="555">
+            <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
