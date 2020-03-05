@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-452">
-                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <first_editor relative-caret-position="376">
+                <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -242,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1032" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11375948" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -600,8 +600,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-452">
-            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <first_editor relative-caret-position="376">
+            <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
