@@ -117,28 +117,23 @@ public:
         int m=grid.size();
         int n=grid[0].size();
         queue<pair<int,int>> st;
-        //st.reserve(m*n);
-        //vector<pair<int,int>> st_new;
-        //st_new.reserve(m*n);
         int x,y,x_new,y_new=0;        
-        vector<pair<int,int>> dir;
-        dir.push_back(make_pair(-1,0));
-        dir.push_back(make_pair(1,0));
-        dir.push_back(make_pair(0,-1));
-        dir.push_back(make_pair(0,1));
+        vector<pair<int,int>> dir{ {-1, 0}, {1, 0}, {0, -1}, {0, 1} };
         int minute=0;
+        int fresh=0;//标记新鲜的数量
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
             {
                 if(grid[i][j]==2) 
                 {
-                    st.push(make_pair(i,j));
+                    st.push({i,j});
                 }
+                else if(grid[i][j]==1) fresh++;
                 
             }
         }
-        while(1)
+        while(!st.empty())
         {
             int lens=st.size();
             for(int i=0;i<lens;i++)
@@ -150,32 +145,21 @@ public:
                 {
                     y_new=y+dir[i].first;
                     x_new=x+dir[i].second;
-                    if (y>-1 && y_new<m && x>-1 && x_new<n && grid[y_new][x_new]==1)
+                    if (y_new>-1 && y_new<m && x_new>-1 && x_new<n && grid[y_new][x_new]==1)
                     {
-                        grid[y_new][x_new]==2;
-                        st.push(make_pair(y_new,x_new));
+                        grid[y_new][x_new]=2;
+                        st.push({y_new,x_new});
+                        fresh--;
                     }
-                }
-                
+                }              
             }
-            if(st.empty()) break;
-            //st=st_new;
+            if (st.empty()) break;
             minute++;  
         }
-        for(int i=0;i<m;i++)
-            {
-                for(int j=0;j<n;j++)
-                {
-                    if(grid[i][j]==1) 
-                    {
-                        return -1;
-                    }
-                }
-            }
-        return minute;
+        return fresh? -1: minute;
     }
 };
 ```
-执行用时 :4 ms, 在所有 C++ 提交中击败了91.53%的用户
+执行用时 :4 ms, 在所有 C++ 提交中击败了97.28%的用户
 
-内存消耗 :15.1 MB, 在所有 C++ 提交中击败了9.07%的用户
+内存消耗 :15.4 MB, 在所有 C++ 提交中击败了5.07%的用户
