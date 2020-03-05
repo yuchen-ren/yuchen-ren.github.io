@@ -2,7 +2,7 @@
 layout:     post
 title:      "Leetcode575"
 subtitle:   " 分糖果 "
-date:       2020-3-4 10:00:00
+date:       2020-3-5 10:00:00
 author:     "TerryRen"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
