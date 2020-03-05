@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-5-Distribute Candies575.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies575.md">
+      <file leaf-file-name="2020-3-5-Distribute Candies to People1103.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="532">
-                <caret line="146" column="39" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+              <first_editor relative-caret-position="-452">
+                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -71,9 +71,9 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-4-Binary Tree Level Order Traversal102.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies575.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-4-Rotting Oranges994.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies575.md" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11375948" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -575,11 +575,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies575.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="736">
+            <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-4-Rotting Oranges994.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="762">
-            <caret line="98" column="97" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="98" selection-end-column="97" />
+          <first_editor relative-caret-position="1227">
+            <caret line="160" column="2" lean-forward="true" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
@@ -589,19 +600,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies575.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="146" column="39" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+          <first_editor relative-caret-position="-452">
+            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
