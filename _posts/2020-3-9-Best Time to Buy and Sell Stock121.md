@@ -102,7 +102,6 @@ class Solution:
         #dp[i][0 or 1]第i天手头没有或持有股票，所对应的利润
         dp= [[0] *2 for _ in range(lens+1)]       
         dp[0][1]=float("-inf")
-        print(dp)
         for i in range(1,lens+1):
             #prices列表比dp少一位，prices[i-1]对应dp[i]
             dp[i][0]=max(dp[i-1][0],dp[i-1][1]+prices[i-1]) 
@@ -142,7 +141,9 @@ class Solution:
             dp[i][1]=max(dp[i-1][1],-prices[i-1])
         return dp[lens][0]
 ```
+执行用时 :48 ms, 在所有 Python3 提交中击败了90.96%的用户
 
+内存消耗 :14.2 MB, 在所有 Python3 提交中击败了18.65%的用户
 
 ### c++的code如下：
 
