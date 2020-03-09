@@ -84,59 +84,32 @@ class Solution:
 ```c
 
 ```
-## 通过双端队列
-通过一个递减的双端队列来记录最大值。
+## 动态规划从下向上
+参考了官方的思路，这里有详细介绍[参考来源](https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
 
-时间复杂度：O(1)（插入，删除，求最大值）
-当second中的值用完后，插入操作虽然看起来有循环，做一个插入操作时最多可能会有n次出队操作。
-但要由于每个数字只会出队一次，因此对于所有的n个数字的插入过程，对应的所有出队操作也不会大于n次。
-因此将出队的时间均摊到每个插入操作上，时间复杂度为 O(1)。
+时间复杂度：O(Sn)，其中 S是金额，n是面额数。我们一共需要计算 O(S)个状态，S为题目所给的总金额。
+对于每个状态，每次需要枚举 n个面额来转移状态，所以一共需要 O(Sn)的时间复杂度。
 
-空间复杂度：O(n)
+空间复杂度：O(S)。DP数组需要开长度为总金额 S的空间。
 
 
 ### python的code如下：
 
 
 ```python
-import queue
-class MaxQueue:
-
-    def __init__(self):
-        self.deque=queue.deque()
-        self.sortdeque=queue.deque()
-
-
-    def max_value(self) -> int:
-        return self.sortdeque[0] if self.deque else -1
-
-
-    def push_back(self, value: int) -> None:
-        self.deque.append(value)
-        while self.sortdeque and value>self.sortdeque[-1]:
-            self.sortdeque.pop()
-        self.sortdeque.append(value)
-
-
-    def pop_front(self) -> int:
-        if not self.deque:
-            return -1
-        val=self.deque.popleft()
-        if val==self.sortdeque[0]:
-            self.sortdeque.popleft()
-        return val
-
-
-
-# Your MaxQueue object will be instantiated and called as such:
-# obj = MaxQueue()
-# param_1 = obj.max_value()
-# obj.push_back(value)
-# param_3 = obj.pop_front()
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        dp=[float("inf")]*(amount+1)
+        dp[0]=0
+        for i in range(1,amount+1):
+            for coin in coins:
+                if i>=coin:
+                    dp[i]=min(dp[i],dp[i-coin]+1)
+        return dp[-1] if dp[-1]!=float("inf") else -1
 ```
-执行用时 :256 ms, 在所有 Python3 提交中击败了81.22%的用户
+执行用时 :1584 ms, 在所有 Python3 提交中击败了64.90%的用户
 
-内存消耗 :16.8 MB, 在所有 Python3 提交中击败了100.00%的用户
+内存消耗 :13.4 MB, 在所有 Python3 提交中击败了24.21%的用户
 
 
 ### c++的code如下：
@@ -171,18 +144,11 @@ public:
 
 };
 ```
-执行用时 :
-16 ms
-, 在所有 C++ 提交中击败了
-97.82%
-的用户
-内存消耗 :
-12.3 MB
-, 在所有 C++ 提交中击败了
-88.64%
-的用户
+执行用时 :16 ms, 在所有 C++ 提交中击败了97.82%的用户
 
-## 通过双辅助数
+内存消耗 :12.3 MB, 在所有 C++ 提交中击败了88.64%的用户
+
+## 动态规划自顶向下
 用first来保存当前队列中最大的数，用second来保存第二大的，first中的数被弹出后再取second中的数
 本意是对上一种方法的优化，减少了一个额外队列的空间，但这样貌似时间不能平均了。
 
@@ -195,62 +161,24 @@ public:
 
 
 ```python
-import queue
-class MaxQueue:
-
-    def __init__(self):
-        self.deque=queue.deque()
-        self.first=-1
-        self.second=-1
-
-
-    def max_value(self) -> int:
-        #print(self.first)
-        return self.first
-
-
-    def push_back(self, value: int) -> None:
-        if value>=self.first :
-            self.second=self.first
-            self.first=value
-        #此时second不能无值，不然不知道deque里是否还有第二大比value大的,会影响下一次first的取值
-        elif self.second>0 and self.second<value<self.first: 
-            self.second=value
-        self.deque.append(value)
-
-
-
-    def pop_front(self) -> int:
-        if not self.deque:
-            return -1
-        val=self.deque.popleft()
-        if val==self.first:
-            if self.second==-1 :#first无值，second也无值
-                self.first=-1
-                for v in self.deque:
-                    if v>self.first :
-                        self.second=self.first
-                        self.first=v
-                    elif self.second<v<=self.first:
-                        self.second=v
-            else:              #first无值，second有值
-                self.first=self.second
-                self.second=-1
-        elif val==self.second : #first有值，second无值
-            self.second=-1
-        return val
-
-
-
-# Your MaxQueue object will be instantiated and called as such:
-# obj = MaxQueue()
-# param_1 = obj.max_value()
-# obj.push_back(value)
-# param_3 = obj.pop_front()
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        memo={0:0}
+        def helper(n):
+            if n in memo:
+                return memo[n]
+            res=float("inf")
+            for coin in coins:
+                if n>=coin:
+                    res=min(res,helper(n-coin)+1)
+            memo[n]=res
+            return res
+        return helper(amount) if helper(amount)!=float("inf") else -1
+        
 ```
-执行用时 :260 ms, 在所有 Python3 提交中击败了77.62%的用户
+执行用时 :1840 ms, 在所有 Python3 提交中击败了40.50%的用户
 
-内存消耗 :16.9 MB, 在所有 Python3 提交中击败了100.00%的用户
+内存消耗 :43.9 MB, 在所有 Python3 提交中击败了5.03%的用户
 
 
 ### c++的code如下：
