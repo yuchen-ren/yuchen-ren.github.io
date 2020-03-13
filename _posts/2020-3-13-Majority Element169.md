@@ -87,3 +87,35 @@ class Solution:
 执行用时 :44 ms, 在所有 Python3 提交中击败了95.58%的用户
 
 内存消耗 :15.1 MB, 在所有 Python3 提交中击败了5.04%的用户
+
+##摩尔投票法
+如果我们把众数记为+1，把其他数记为-1，将它们全部加起来，显然和大于 0，从结果本身我们可以看出众数比其他数多。
+遇到相同的数，就投一票，遇到不同的数，就减一票，最后还存在票的数就是众数
+
+时间复杂度：O(nlogn)
+
+空间复杂度：O(n)
+
+(复杂度取决于python自带的sort函数，用的方法是Timesort)
+### python的code如下：
+
+
+```python
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:              
+        lens=len(nums)
+        count=1
+        candidate=nums[0]
+        for i in range(1,lens):
+            if count==0:
+                candidate=nums[i]
+            if candidate==nums[i]:
+                count+=1
+            else:
+                count-=1
+        return candidate
+```
+
+执行用时 :48 ms, 在所有 Python3 提交中击败了92.78%的用户
+
+内存消耗 :15.1 MB, 在所有 Python3 提交中击败了5.04%的用户
