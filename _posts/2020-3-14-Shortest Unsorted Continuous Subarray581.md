@@ -61,11 +61,12 @@ class Solution:
 
 ```
 ##暴力循环
-对列表排序找中间那个值。
+寻找右边界：如果rightmax大于nums[i]，就更新rightmax；否则将右边界更新为i。
+寻找左边界：如果leftmin小于nums[lens-i-1]，就更新leftmin；否则将左边界更新为lens-i-1。
 
-时间复杂度：O(nlogn)
+时间复杂度：O(n)
 
-空间复杂度：O(n)
+空间复杂度：O(1)
 
 (复杂度取决于python自带的sort函数，用的方法是Timesort)
 ### python的code如下：
