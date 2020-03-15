@@ -12,12 +12,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="2020-3-16-Compress String LCCI面01.06.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-16-Compress String LCCI面01.06.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-158">
+                <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2020-3-15-Reach a Number754.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Reach a Number754.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="532">
-                <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+              <first_editor relative-caret-position="118">
+                <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -87,6 +100,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-14-Shortest Unsorted Continuous Subarray581.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-15-Longest Increasing Subsequence300.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-15-Max Area of Island695.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-16-Compress String LCCI面01.06.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-15-Reach a Number754.md" />
       </list>
     </option>
@@ -289,13 +303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-29-opencv.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-29-regulation_model.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -634,11 +641,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-16-Compress String LCCI面01.06.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-158">
+            <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Reach a Number754.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <first_editor relative-caret-position="118">
+            <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
