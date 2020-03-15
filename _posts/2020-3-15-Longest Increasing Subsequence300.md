@@ -28,8 +28,9 @@ tags:
 进阶: 你能将算法的时间复杂度降低到 O(n log n) 吗?
 
 
-##排序找不同
-再建一个排好序的数组，找到两个边界。
+##动态规划
+dp[i]来表示在nums中以第i个数结尾的最长上升子序列的长度。
+在遍历nums[i]的过程中，同时看i之前的数有没有满足的最长上升子序列。
 
 时间复杂度：O(nlogn)
 
@@ -41,19 +42,19 @@ tags:
 
 ```python
 class Solution:
-    def findUnsortedSubarray(self, nums: List[int]) -> int:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        if not nums:return 0
         lens=len(nums)
-        sort_nums=sorted(nums)
-        left,right=lens,0       
+        dp=[1]*lens
         for i in range(lens):
-            if sort_nums[i]!=nums[i]:
-                left=min(left,i)
-                right=max(right,i)
-        return right-left+1 if right>=left else 0
+            for j in range(i):
+                if nums[i]>nums[j]:
+                    dp[i]=max(dp[j]+1,dp[i])
+        return max(dp)
 ```
-执行用时 :160 ms, 在所有 Python3 提交中击败了76.59%的用户
+执行用时 :1244 ms, 在所有 Python3 提交中击败了45.49%的用户
 
-内存消耗 :15.1 MB, 在所有 Python3 提交中击败了5.04%的用户
+内存消耗 :13.8 MB, 在所有 Python3 提交中击败了5.14%的用户
 ### c++的code如下：
 
 ```c
@@ -63,9 +64,9 @@ class Solution:
 寻找右边界：如果rightmax大于nums[i]，就更新rightmax；否则将右边界更新为i。
 寻找左边界：如果leftmin小于nums[lens-i-1]，就更新leftmin；否则将左边界更新为lens-i-1。
 
-时间复杂度：O(n)
+时间复杂度：O(n^2)
 
-空间复杂度：O(1)
+空间复杂度：O(n)
 
 (复杂度取决于python自带的sort函数，用的方法是Timesort)
 ### python的code如下：
@@ -91,34 +92,3 @@ class Solution:
 
 内存消耗 :14.6 MB, 在所有 Python3 提交中击败了5.56%的用户
 
-##摩尔投票法
-如果我们把众数记为+1，把其他数记为-1，将它们全部加起来，显然和大于 0，从结果本身我们可以看出众数比其他数多。
-遇到相同的数，就投一票，遇到不同的数，就减一票，最后还存在票的数就是众数。
-
-时间复杂度：O(n)
-
-空间复杂度：O(1)
-
-
-### python的code如下：
-
-
-```python
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:              
-        lens=len(nums)
-        count=1
-        candidate=nums[0]
-        for i in range(1,lens):
-            if count==0:
-                candidate=nums[i]
-            if candidate==nums[i]:
-                count+=1
-            else:
-                count-=1
-        return candidate
-```
-
-执行用时 :48 ms, 在所有 Python3 提交中击败了92.78%的用户
-
-内存消耗 :15.1 MB, 在所有 Python3 提交中击败了5.04%的用户
