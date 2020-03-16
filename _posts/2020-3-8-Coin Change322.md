@@ -85,7 +85,7 @@ class Solution:
 
 ```
 ## 动态规划从下向上
-参考了官方的思路，这里有详细介绍[参考来源](https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
+参考了官方的思路，这里有详细介绍[参考来源](https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/)
 
 时间复杂度：O(Sn)，其中 S是金额，n是面额数。我们一共需要计算 O(S)个状态，S为题目所给的总金额。
 对于每个状态，每次需要枚举 n个面额来转移状态，所以一共需要 O(Sn)的时间复杂度。
