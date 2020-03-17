@@ -119,4 +119,6 @@ class Solution:
 
         return [item[0] for item in min_heap]
 ```
+执行用时 :296 ms, 在所有 Python3 提交中击败了5.12%的用户
 
+内存消耗 :18 MB, 在所有 Python3 提交中击败了5.22%的用户
