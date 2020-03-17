@@ -80,61 +80,9 @@ class Solution:
             if len(new)==m*n:break
         return new
 ```
-执行用时 :
-36 ms
-, 在所有 Python3 提交中击败了
-57.14%
-的用户
-内存消耗 :
-13.6 MB
-, 在所有 Python3 提交中击败了
-5.11%
-的用户
-### c++的code如下：
+执行用时 :36 ms, 在所有 Python3 提交中击败了57.14%的用户
 
-```c
-
-```
-##三指针快排
-
-用三个指针（p0,p2和curr）来分别追踪0的最右边界，2的最左边界和当前考虑的元素。
-
-只扫描一遍数组移动 curr 指针，若nums[curr] = 0，则将其与 nums[p0]互换；若 nums[curr] = 2 ，则与 nums[p2]互换。
-
-时间复杂度：O(n)。
-
-
-空间复杂度：O(1)。
-
-
-### python的code如下：
-
-
-```python
-class Solution:
-    def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-        lens=len(nums)
-        p0=0
-        p2=lens-1
-        cur=0
-        while cur<=p2:
-            if nums[cur]==0:
-                nums[p0],nums[cur]=nums[cur],nums[p0]
-                p0+=1
-                cur+=1
-            elif nums[cur]==2:
-                nums[p2],nums[cur]=nums[cur],nums[p2]
-                p2-=1 #等于2的情况不能cur+1，因为cur还没有扫描过后面的数
-            elif nums[cur]==1:
-                cur+=1
-
-```
-执行用时 :32 ms, 在所有 Python3 提交中击败了87.15%的用户
-
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.14%的用户
+内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.11%的用户
 ### c++的code如下：
 
 ```c
