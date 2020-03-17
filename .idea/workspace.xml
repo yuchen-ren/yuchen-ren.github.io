@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-17-Find Words That Can Be Formed by Characters1160.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Find Words That Can Be Formed by Characters1160.md">
+      <file leaf-file-name="2020-3-17-Factorial Trailing Zeroes172.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Factorial Trailing Zeroes172.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="302">
-                <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+              <first_editor relative-caret-position="251">
+                <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/archive.html" />
         <option value="$PROJECT_DIR$/_posts/2019-10-24-helloworld.markdown" />
         <option value="$PROJECT_DIR$/_posts/2013-10-24-helloworld - 副本.markdown" />
         <option value="$PROJECT_DIR$/_posts/README.md" />
@@ -89,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-16-Sort Colors75.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-16-Spiral Matrix54.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-17-Find Words That Can Be Formed by Characters1160.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-17-Factorial Trailing Zeroes172.md" />
       </list>
     </option>
   </component>
@@ -290,13 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2019-10-31-pytorch.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-29-torch_transforms _normal.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
@@ -660,8 +653,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Find Words That Can Be Formed by Characters1160.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="302">
-            <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <first_editor relative-caret-position="23">
+            <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Factorial Trailing Zeroes172.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="251">
+            <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
