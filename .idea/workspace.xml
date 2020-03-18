@@ -12,25 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-18-Rectangle Overlap836.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-18-Rectangle Overlap836.md">
+      <file leaf-file-name="2020-3-18-Rectangle Area223.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-18-Rectangle Area223.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="688">
-                <caret line="101" column="38" lean-forward="false" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-3-17-Top K Frequent Elements347.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Top K Frequent Elements347.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="647">
-                <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+                <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/README.md" />
         <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_transforms.md" />
         <option value="$PROJECT_DIR$/_posts/2019-10-28-torch_squeeze.markdown" />
         <option value="$PROJECT_DIR$/_posts/2019-10-29-regulation_model.markdown" />
@@ -100,8 +86,9 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-17-Find Words That Can Be Formed by Characters1160.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-17-Factorial Trailing Zeroes172.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-16-Spiral Matrix54.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-3-18-Rectangle Overlap836.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-17-Top K Frequent Elements347.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-18-Rectangle Overlap836.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-18-Rectangle Area223.md" />
       </list>
     </option>
   </component>
@@ -303,16 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.zh.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-2-29-zichuanshu.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-29-PIL.markdown">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,22 +648,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-18-Rectangle Overlap836.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Top K Frequent Elements347.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="688">
-            <caret line="101" column="38" lean-forward="false" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+          <first_editor relative-caret-position="647">
+            <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-17-Top K Frequent Elements347.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-18-Rectangle Overlap836.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="647">
-            <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+          <first_editor relative-caret-position="506">
+            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-18-Rectangle Area223.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="688">
+            <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor />
