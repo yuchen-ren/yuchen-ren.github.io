@@ -72,39 +72,6 @@ class Solution:
                 odd_flag=True
         return count+1 if odd_flag else count
 ```
-执行用时 :
-36 ms
-, 在所有 Python3 提交中击败了
-70.67%
-的用户
-内存消耗 :
-13.3 MB
-, 在所有 Python3 提交中击败了
-5.23%
-的用户
-##一维投影
+执行用时 :36 ms, 在所有 Python3 提交中击败了70.67%的用户
 
-如果两个矩形重叠，代表了两个矩形与x轴平行的边投影到x轴上时会有交集，与y轴平行的边投影到y轴上时也会有交集。
-因此，我们可以将问题看作一维线段是否有交集的问题。
-
-
-时间复杂度：O(1)。
-
-
-空间复杂度：O(1)。
-
-
-### python的code如下：
-
-
-```python
-class Solution:
-    def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
-        if min(rec1[2],rec2[2])>max(rec1[0],rec2[0])and min(rec1[3],rec2[3])>max(rec1[1],rec2[1]):
-            return True
-        else:
-            return False
-```
-执行用时 :28 ms, 在所有 Python3 提交中击败了89.31%的用户
-
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.77%的用户
+内存消耗 :13.3 MB, 在所有 Python3 提交中击败了5.23%的用户
