@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Leetcode365"
-subtitle:   "Gray Code"
+subtitle:   "水壶问题"
 date:       2020-3-21 18:00:00
 author:     "TerryRen"
 header-img: "img/post-bg-2015.jpg"
