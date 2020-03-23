@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-3-24-The Masseuse LCCI面17.16.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <first_editor relative-caret-position="92">
+                <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -259,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20493563" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -747,8 +747,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-24-The Masseuse LCCI面17.16.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <first_editor relative-caret-position="92">
+            <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
