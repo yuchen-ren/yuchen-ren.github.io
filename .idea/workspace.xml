@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-23-Search Insert Position35.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md">
+      <file leaf-file-name="2020-3-24-The Masseuse LCCI面17.16.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-24-The Masseuse LCCI面17.16.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <first_editor relative-caret-position="598">
+                <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2019-10-31-pytorch.markdown" />
         <option value="$PROJECT_DIR$/_posts/2020-1-9-torch_dataset .markdown" />
         <option value="$PROJECT_DIR$/_posts/2020-2-29-zichuanshu.markdown" />
         <option value="$PROJECT_DIR$/_posts/2020-2-29-zichuanshu.md" />
@@ -89,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-22-Minimum Increment to Make Array Unique945.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-23-Middle of the Linked List876.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-24-The Masseuse LCCI面17.16.md" />
       </list>
     </option>
   </component>
@@ -290,16 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-2-29-Two Sum1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2936">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-2-29-zichuanshu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -746,8 +736,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <first_editor relative-caret-position="575">
+            <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-24-The Masseuse LCCI面17.16.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
