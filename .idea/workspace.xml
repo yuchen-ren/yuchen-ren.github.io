@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-23-Middle of the Linked List876.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Middle of the Linked List876.md">
+      <file leaf-file-name="2020-3-23-Search Insert Position35.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="670">
-                <caret line="143" column="38" lean-forward="false" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+              <first_editor relative-caret-position="23">
+                <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2019-10-29-matploylib.markdown" />
         <option value="$PROJECT_DIR$/_posts/2019-10-31-pytorch.markdown" />
         <option value="$PROJECT_DIR$/_posts/2020-1-9-torch_dataset .markdown" />
         <option value="$PROJECT_DIR$/_posts/2020-2-29-zichuanshu.markdown" />
@@ -89,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-21-Gray Code89.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-22-Minimum Increment to Make Array Unique945.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-23-Middle of the Linked List876.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md" />
       </list>
     </option>
   </component>
@@ -290,7 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-3-leetcode10.01.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-2-29-Two Sum1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -736,8 +735,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Middle of the Linked List876.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="670">
-            <caret line="143" column="38" lean-forward="false" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+          <first_editor relative-caret-position="394">
+            <caret line="131" column="14" lean-forward="true" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-23-Search Insert Position35.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
