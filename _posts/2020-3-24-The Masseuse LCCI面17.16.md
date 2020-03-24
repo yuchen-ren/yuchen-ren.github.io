@@ -38,14 +38,15 @@ tags:
 ```
 
 
-##二分搜索
-每次都以数组的中间位置寻找，并且记录位置。
+##动态规划
+用dp来保存当前的结果，max_summ来保存当前为止的最大值。
+dp[i]=nums[i]+max_sum[i-2]
 
 
-时间复杂度：O(logn)。
+时间复杂度：O(n)。
 
 
-空间复杂度：O(1)。
+空间复杂度：O(n)。
 
 
 ### python的code如下：
@@ -53,21 +54,21 @@ tags:
 
 ```python
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
-        lens=len(nums)
-        mid=(lens-1)//2
-        if nums[mid]==target:
-            return mid
-        elif nums[mid]>target:
-            if lens==1 or mid==0:
-                return 0
-            return self.searchInsert(nums[:mid],target)
-        else:
-            if lens==1 or mid==lens:
-                return 1
-            return mid+1+self.searchInsert(nums[mid+1:],target)
+    def massage(self, nums: List[int]) -> int:
+        if not nums:return 0
+        lens=len(nums)       
+        if lens==1:return nums[0]
+        if lens==2:return max(nums[0],nums[1])
+        dp=[0]*lens
+        max_sum=[0]*lens
+        max_sum[0]=dp[0]=nums[0]
+        dp[1]=nums[1]
+        max_sum[1]=max(max_sum[0],nums[1])
+        for i in range(2,lens):
+            dp[i]=nums[i]+max_sum[i-2]
+            max_sum[i]=max(max_sum[i-1],dp[i])
+        return max(dp[lens-2],dp[lens-1])
 ```
-执行用时 :32 ms, 在所有 Python3 提交中击败了97.52%的用户
+执行用时 :32 ms, 在所有 Python3 提交中击败了93.06%的用户
 
-内存消耗 :14 MB, 在所有 Python3 提交中击败了5.05%的用户
-
+内存消耗 :13.7 MB, 在所有 Python3 提交中击败了100.00%的用户
