@@ -78,6 +78,6 @@ class Solution:
                         area-=min(level,grid[i][j-1])<<1
         return area
 ```
-执行用时 :136 ms, 在所有 Python3 提交中击败了31.03%的用户
+执行用时 :132 ms, 在所有 Python3 提交中击败了37.16%的用户
 
 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了5.77%的用户
