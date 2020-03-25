@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Leetcode面试题892"
+title:      "Leetcode892"
 subtitle:   "三维形体的表面积"
 date:       2020-3-25 08:00:00
 author:     "TerryRen"
