@@ -77,13 +77,6 @@ class Solution:
                     queue.append((x,y+1))
         return distance
 ```
-执行用时 :
-740 ms
-, 在所有 Python3 提交中击败了
-60.29%
-的用户
-内存消耗 :
-14 MB
-, 在所有 Python3 提交中击败了
-17.65%
-的用户
+执行用时 :740 ms, 在所有 Python3 提交中击败了60.29%的用户
+
+内存消耗 :14 MB, 在所有 Python3 提交中击败了17.65%的用户
