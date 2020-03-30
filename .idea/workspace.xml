@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-3-29-As Far from Land as Possible1162.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-29-As Far from Land as Possible1162.md">
+      <file leaf-file-name="2020-3-30-圆圈中最后剩下的数字 LCOF面62.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-30-圆圈中最后剩下的数字 LCOF面62.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <first_editor relative-caret-position="897">
+                <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-3-Sorted Merge LCCI 10.01.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-4-Binary Tree Level Order Traversal102.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md" />
@@ -89,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-28-Implement Trie (Prefix Tree)208.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-28-Short Encoding of Words820.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-29-As Far from Land as Possible1162.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-30-圆圈中最后剩下的数字 LCOF面62.md" />
       </list>
     </option>
   </component>
@@ -322,16 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-1-9-torch_dataset .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="111" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-10-Diameter of Binary Tree.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-4-Maximum Depth of Binary Tree104.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -807,8 +797,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-29-As Far from Land as Possible1162.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <first_editor relative-caret-position="582">
+            <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-30-圆圈中最后剩下的数字 LCOF面62.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="897">
+            <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
