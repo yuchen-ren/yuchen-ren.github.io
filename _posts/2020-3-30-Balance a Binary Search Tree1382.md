@@ -39,6 +39,7 @@ tags:
 [参考链接](https://leetcode-cn.com/problems/balance-a-binary-search-tree/solution/python3-shuang-100ti-jie-by-yang-jian-li/)
 
 时间复杂度：O(n)+O(nlogn)=O(nlogn)。第一步中序遍历获取到排序好的结果：O(n)；第二部递归拆成了两个子问题T(n)=2T(n/2)+O(n)，由主定理知：O(nlogn)
+
 空间复杂度：O(n)。
 
 ### python的code如下：
