@@ -77,6 +77,7 @@ s 为嵌套情况，depth("(" + A + ")") = 1 + depth(A)，其中 A 是有效括�
 
 ###用栈进行括号匹配
 
+讨论栈顶位置的奇偶。
 
 [参考链接](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/solution/you-xiao-gua-hao-de-qian-tao-shen-du-by-leetcode-s/)
 
