@@ -12,12 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-4-2-Game of Life289.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md">
+      <file leaf-file-name="2020-4-3-String to Integer (atoi)8.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+              <first_editor relative-caret-position="943">
+                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-6-和为s的连续正数序列57II.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-6-Best Time to Buy and Sell Stock121.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-6-Climbing Stairs70.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-7-队列的最大值面59II.md" />
@@ -89,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Subarray53.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md" />
       </list>
     </option>
   </component>
@@ -322,16 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Max Area of Island695.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3473">
-            <caret line="151" column="39" lean-forward="false" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-3-Reverse String344.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -802,6 +792,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="627">
             <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="943">
+            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
