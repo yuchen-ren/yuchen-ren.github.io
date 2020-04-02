@@ -12,25 +12,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-4-1-Maximum Subarray53.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-4-1-Maximum Subarray53.md">
+      <file leaf-file-name="2020-4-2-Game of Life289.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3335">
-                <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="368">
-                <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+              <first_editor relative-caret-position="627">
+                <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-5-Distribute Candies to People1103.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-6-和为s的连续正数序列57II.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-6-Best Time to Buy and Sell Stock121.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-6-Climbing Stairs70.md" />
@@ -102,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-31-Longest Common Subsequence1143.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Subarray53.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md" />
       </list>
     </option>
   </component>
@@ -304,10 +291,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1030" extended-state="1" />
+    <frame x="1" y="1" width="1918" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2597614" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.087310195" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.078431375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -335,7 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Shortest Unsorted Continuous Subarray581 - 副本.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Max Area of Island695.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -805,6 +791,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="368">
             <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="627">
+            <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
