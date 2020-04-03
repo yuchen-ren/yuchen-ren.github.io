@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="943">
-                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <first_editor relative-caret-position="189">
+                <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -96,7 +96,7 @@
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
-    <option name="height" value="1030" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -291,7 +291,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1030" extended-state="0" />
+    <frame x="1" y="1" width="1918" height="1029" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.087310195" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -801,8 +801,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="943">
-            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <first_editor relative-caret-position="189">
+            <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
