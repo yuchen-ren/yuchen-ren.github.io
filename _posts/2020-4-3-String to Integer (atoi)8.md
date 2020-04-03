@@ -64,127 +64,27 @@ tags:
      因此返回 INT_MIN (−231) 。
 ```
 
-###暴力遍历
+###正则表达式
 
 用额外数组来保存初始的状态(注意需要深拷贝)。
 
-时间复杂度：O(m*n)。
-空间复杂度：O(m*n)。
+
 ### python的code如下：
 
 
 ```python
+import re
 class Solution:
-    def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        board_copy=copy.deepcopy(board)
-        m,n=len(board),len(board[0])
-        dirs=[(1,0), (1,-1), (0,-1), (-1,-1), (-1,0), (-1,1), (0,1), (1,1)]
-        for i in range(m):
-            for j in range(n):
-                live=0
-                for d in dirs:
-                    x,y=i+d[0],j+d[1]
-                    if x<0 or x>=m or y<0 or y>=n:
-                        continue
-                    if board_copy[x][y]==1:
-                        live+=1
-                if live<2 or live>3:
-                    board[i][j]=0
-                elif live==3 and board_copy[i][j]==0:
-                    board[i][j]=1
+    def myAtoi(self, str: str) -> int:
+        INT_MAX = 2147483647    
+        INT_MIN = -2147483648
+        str = str.lstrip()      #清除左边多余的空格
+        num_re = re.compile(r'^[\+\-]?\d+')   #设置正则规则
+        num = num_re.findall(str)   #查找匹配的内容
+        num = int(*num) #由于返回的是个列表，解包并且转换成整数
+        return max(min(num,INT_MAX),INT_MIN)    #返回值
 ```
-执行用时 :40 ms, 在所有 Python3 提交中击败了60.31%的用户
+执行用时 :32 ms, 在所有 Python3 提交中击败了94.36%的用户
 
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了9.52%的用户
+内存消耗 :13.4 MB, 在所有 Python3 提交中击败了5.38%的用户
 
-###原地标记算法
-1——保持1
--1——1转0
-0——保持0
--2——0转1
-
-
-时间复杂度：O(m*n)。
-
-空间复杂度：O(1)。
-### python的code如下：
-
-
-```python
-class Solution:
-    def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        """
-        1——保持1
-        -1——1转0
-        0——保持0
-        -2——0转1
-        """
-        m,n=len(board),len(board[0])
-        dirs=[(1,0), (1,-1), (0,-1), (-1,-1), (-1,0), (-1,1), (0,1), (1,1)]
-        for i in range(m):
-            for j in range(n):
-                live=0
-                for d in dirs:
-                    x,y=i+d[0],j+d[1]
-                    if x<0 or x>=m or y<0 or y>=n:
-                        continue
-                    if board[x][y]==1 or board[x][y]==-1:
-                        live+=1
-                if board[i][j]==1 and (live<2 or live>3)  :
-                    board[i][j]=-1
-                elif board[i][j]==0 and live==3:
-                    board[i][j]=-2
-        for i in range(m):
-            for j in range(n):
-                if board[i][j]==-1:
-                    board[i][j]=0
-                elif board[i][j]==-2:
-                    board[i][j]=1
-```
-执行用时 :40 ms, 在所有 Python3 提交中击败了60.76%的用户
-
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了10.53%的用户
-
-
-###cv中的卷积操作
-
-[参考链接](https://leetcode-cn.com/problems/game-of-life/solution/xiong-mao-shua-ti-python3-bao-xue-bao-hui-cvzhong-/)
-
-时间复杂度：O(m*n)。
-空间复杂度：O(m*n)。
-### python的code如下：
-
-
-```python
-class Solution:
-    def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        import numpy as np
-        m,n=len(board),len(board[0])
-        #下面两行做zero padding
-        board_exp=np.array([[0 for _ in range(n+2)] for _ in range(m+2)])
-        board_exp[1:1+m,1:1+n]=np.array(board)
-        #设置卷积核
-        kernel=np.array([[1,1,1],[1,0,1],[1,1,1]])
-        #开始卷积
-        for i in range(1,m+1):
-            for j in range(1,n+1):
-                live=np.sum(kernel*board_exp[i-1:i+2,j-1:j+2])
-                if board_exp[i,j]==1:
-                    if live<2 or live>3:
-                        board[i-1][j-1]=0
-                else:
-                    if live==3:
-                        board[i-1][j-1]=1
-```
-执行用时 :100 ms, 在所有 Python3 提交中击败了6.56%的用户
-
-内存消耗 :29.4 MB, 在所有 Python3 提交中击败了10.53%的用户
