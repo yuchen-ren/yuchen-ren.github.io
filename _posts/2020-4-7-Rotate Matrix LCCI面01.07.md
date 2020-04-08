@@ -33,7 +33,7 @@ tags:
 ]
 
 ```
-示例1：
+示例2：
 ```
 给定 matrix =
 [
@@ -51,9 +51,6 @@ tags:
   [16, 7,10,11]
 ]
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/rotate-matrix-lcci
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
 ###额外数组
 新矩阵与原来矩阵之间坐标的关系：
