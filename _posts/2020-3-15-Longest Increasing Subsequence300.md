@@ -32,11 +32,11 @@ tags:
 dp[i]来表示在nums中以第i个数结尾的最长上升子序列的长度。
 在遍历nums[i]的过程中，同时看i之前的数有没有满足的最长上升子序列。
 
-时间复杂度：O(nlogn)
+时间复杂度：O(n^2)
 
 空间复杂度：O(n)
 
-(复杂度取决于python自带的sorted函数，用的方法是Timesort)
+
 ### python的code如下：
 
 
@@ -60,35 +60,43 @@ class Solution:
 ```c
 
 ```
-##暴力循环
-寻找右边界：如果rightmax大于nums[i]，就更新rightmax；否则将右边界更新为i。
-寻找左边界：如果leftmin小于nums[lens-i-1]，就更新leftmin；否则将左边界更新为lens-i-1。
+##贪心二分
+考虑一个简单的贪心，如果我们要使上升子序列尽可能的长，则我们需要让序列上升得尽可能慢，因此我们希望每次在上升子序列最后加上的那个数尽可能的小。
 
-时间复杂度：O(n^2)
+基于上面的贪心思路，我们维护一个数组 d[i]，表示长度为 i的最长上升子序列的末尾元素的最小值，用 \textit{len}len 记录目前最长上升子序列的长度，起始时 lenlen 为 11，d[1] = \textit{nums}[0]d[1]=nums[0]。
+
+
+
+时间复杂度：O(nlogn)
 
 空间复杂度：O(n)
 
-(复杂度取决于python自带的sort函数，用的方法是Timesort)
+
 ### python的code如下：
 
 
 ```python
 class Solution:
-    def findUnsortedSubarray(self, nums: List[int]) -> int:
+    def lengthOfLIS(self, nums: List[int]) -> int:       
         lens=len(nums)
-        left,right=1,0
-        leftmin=nums[lens-1]
-        rightmax=nums[0]
-        for i in range(lens):
-            if rightmax<=nums[i]:
-                rightmax=nums[i]
-            else: right=i
-            if leftmin>=nums[lens-1-i]:
-                leftmin=nums[lens-1-i]
-            else: left=lens-1-i
-        return right-left+1
+        if lens<2:return lens
+        tail=[nums[0]]
+        for i in range(1,lens):
+            if nums[i]>tail[-1]:
+                tail.append(nums[i])
+                continue
+            left=0
+            right=len(tail)-1
+            while left<right:
+                mid=(left+right)//2
+                if tail[mid]<nums[i]:
+                    left=mid+1
+                else:
+                    right=mid
+            tail[left]=nums[i]
+        return len(tail)
 ```
-执行用时 :240 ms, 在所有 Python3 提交中击败了74.43%的用户
+执行用时 :48 ms, 在所有 Python3 提交中击败了91.52%的用户
 
-内存消耗 :14.6 MB, 在所有 Python3 提交中击败了5.56%的用户
+内存消耗 :13.9 MB, 在所有 Python3 提交中击败了7.89%的用户
 
