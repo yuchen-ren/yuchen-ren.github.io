@@ -12,12 +12,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-4-11-Super Egg Drop.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-4-11-Super Egg Drop.md">
+      <file leaf-file-name="2020-4-12-Number of Longest Increasing Subsequence673.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-4-12-Number of Longest Increasing Subsequence673.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="575">
-                <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+              <first_editor relative-caret-position="297">
+                <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="42" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-3-15-Longest Increasing Subsequence300.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Longest Increasing Subsequence300.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="371">
+                <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,8 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-15-Longest Increasing Subsequence300.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-3-15-Max Area of Island695.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-16-Compress String LCCI面01.06.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-15-Reach a Number754.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-8-Coin Change322.md" />
@@ -89,13 +100,16 @@
         <option value="$PROJECT_DIR$/_posts/2020-4-9-Generate Parentheses22.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-10-Reverse Words in a String151.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-11-Super Egg Drop.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-4-12-Number of Longest Increasing Subsequence673.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-15-Longest Increasing Subsequence300.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1032" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -113,7 +127,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,6 +155,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,10 +304,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1918" height="1032" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1735358" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.078431375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,26 +335,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-16-Maximum Gap164.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="693">
-            <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-19-Longest Palindrome409.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1378">
-            <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/研一课程/算法分析与设计/作业/任昱宸-SA19168149-第一次作业/编程作业/max_gap.py" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-20-最小的k个数  LCOF面40.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -669,7 +663,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3335">
             <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -680,7 +673,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="368">
             <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -691,7 +683,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="627">
             <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -702,7 +693,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="69">
             <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -713,7 +703,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="529">
             <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -724,7 +713,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="373">
             <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -735,7 +723,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2515">
             <caret line="135" column="39" lean-forward="false" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -746,29 +733,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="463">
             <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-4-5-LFU Cache460.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="762">
-            <caret line="98" column="22" lean-forward="false" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-4-5-LFU Cache460.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-7-Rotate Matrix LCCI面01.07.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="555">
             <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -779,7 +754,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="690">
             <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -790,7 +764,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="92">
             <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -801,7 +774,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="667">
             <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -810,8 +782,30 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-11-Super Egg Drop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="575">
-            <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <first_editor relative-caret-position="644">
+            <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-4-12-Number of Longest Increasing Subsequence673.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="297">
+            <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-15-Longest Increasing Subsequence300.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="371">
+            <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
