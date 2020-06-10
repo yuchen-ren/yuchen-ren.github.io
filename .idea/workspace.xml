@@ -11,13 +11,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-4-18-Minimum Score Triangulation of Polygon1039.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-4-18-Minimum Score Triangulation of Polygon1039.md">
+    <leaf>
+      <file leaf-file-name="2020-3-31-Sort an Array912.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-3-31-Sort an Array912.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="573">
-                <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <first_editor relative-caret-position="2004">
+                <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,7 +66,6 @@
         <option value="$PROJECT_DIR$/_posts/2020-3-30-圆圈中最后剩下的数字 LCOF面62.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-28-BiNode面17.12.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-30-Balance a Binary Search Tree1382.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-3-31-Sort an Array912.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-31-Longest Common Subsequence1143.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Subarray53.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md" />
@@ -89,6 +88,7 @@
         <option value="D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/generator.py" />
         <option value="D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/max_gap.py" />
         <option value="$PROJECT_DIR$/_posts/2020-4-18-Minimum Score Triangulation of Polygon1039.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-3-31-Sort an Array912.md" />
       </list>
     </option>
   </component>
@@ -113,7 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,11 +142,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="H:/agricul" />
+    <property name="last_opened_file_path" value="H:/viwi_image_caption/AoANet_VizWiz-master" />
     <property name="SearchEverywhereHistoryKey" value="tag&#9;FILE&#9;file://F:/GitHub/yuchen-ren.github.io/js/jquery.tagcloud.js" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -351,10 +351,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21137339" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2874859" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -564,16 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-31-Sort an Array912.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-3-31-Longest Common Subsequence1143.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -740,7 +730,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="297">
             <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="42" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -751,7 +740,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="373">
             <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -762,7 +750,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="667">
             <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -773,25 +760,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="371">
             <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/编程作业/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/编程作业/generator.py" />
     <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/编程作业/edit_distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,53 +784,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/max_gap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/generator.py" />
+    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/max_gap.py" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-6-Edit Distance72.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="274">
             <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="51" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-4-11-Super Egg Drop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1265">
-            <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-4-11-Super Egg Drop.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-18-Minimum Score Triangulation of Polygon1039.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="573">
-            <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <first_editor relative-caret-position="414">
+            <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-3-31-Sort an Array912.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2004">
+            <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
