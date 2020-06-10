@@ -40,44 +40,12 @@ tags:
 输出：13
 解释：最低分数三角剖分的得分情况为 1*1*3 + 1*1*4 + 1*1*5 + 1*1*1 = 13。
 ```
-注意: 给定的数组长度不超过 2000 并且结果一定是32位有符号整数。
+
 ###动态规划
 
-用数组dp[]来求以nums[i]结尾的最长递增子序列的长度，
-用count[]来求以nums[i]结尾的最长递增子序列的个数（也可以理解为表示递增子序列的组合方式）。
+dp[i][j]：表示从第i个到第j个角所形成的三角形的最小面积
 
-对于i>j，nums[i]>nums[j]的时候，如果dp[j]+1>dp[i]，说明第一次找到dp[j]+1长度且以nums[i]结尾的最长递增子序列，
-则count[i]=count[j]（以nums[i]结尾的最长递增子序列的组合方式就等于nums[j]目前的组合方式）;
-
-如果dp[j]+1==dp[i]说明这个长度的递增序列已找到过一次了，
-则count[i]+=count[j]（现有的组合方式个数加上count[j]的组合方式，即为总的组合方式个数）
-
-先看dp
-以1,3,9,5,7为例：
-i=0时，比它小的没有，dp[0]=1
-i=1时，nums[0]小于nums[1]，dp[1]=dp[0]+1=2
-i=2时，nums[0]、nums[1]小于nums[2]，dp[2]=dp[1]+1=3
-i=3时，nums[0]、nums[1]小于nums[3]，但nums[2]大于nums[3]，所以dp[3]=dp[1]+1=3
-i=4时，nums[0]、nums[1]、nums[3]小于nums[4]，所以dp[4]=dp[3]+1=4
-
-即动态规划方程为：
-if nums[i]>nums[j]:dp[i]=max(dp[i],dp[j])+1 (j属于[0,i-1])
-if nums[i]<=nums[j]:dp[i]=max(dp[i],dp[j])(j属于[0,i-1])
-初始边界条件dp[0]=1，因为每个元素都可以以自身为一个长度的子序列，所以dp初始化为1。
-
-再同时看count
-以1,3,5,4,7为例：
-i=0时，比它小的没有，dp[0]=1,count[0]=1
-i=1时，nums[0]小于nums[1]，dp[1]=dp[0]+1=2,，count[1]=count[0]=1
-i=2时，nums[0]、nums[1]小于nums[2]，dp[2]=dp[1]+1=3，count[2]=count[1]=1
-i=3时，nums[0]、nums[1]小于nums[3]，但nums[2]大于nums[3]，所以dp[3]=dp[1]+1=3，count[3]=count[1]+count[2]
-i=4时，nums[0]、nums[1]、nums[2]、nums[3]小于nums[4]，所以dp[4]=dp[3]+1=4，count[4]=count[3]
-
-
-
-所以个数的动态规划方程为：
-if nums[i]>nums[j]:count[i]=max(count[j]) (j属于[0,i-1])
-if nums[i]<=nums[j]:count[i]=max(count[j]+1)(j属于[0,i-1])
+dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[k] * A[j])
 
 时间复杂度：O(n^2)。
 
