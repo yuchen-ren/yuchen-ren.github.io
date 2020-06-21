@@ -31,7 +31,7 @@ tags:
 1 <= A.length <= 10000
 -50000 <= A[i] <= 50000
 
-###插入排序（Insertion Sort）
+##插入排序（Insertion Sort）
 
 插入排序是前面已排序数组找到插入的位置。
 
@@ -60,7 +60,7 @@ class Solution:
 超出时间限制。。。
 
 
-###归并排序（Merge Sort）
+##归并排序（Merge Sort）
 
 采用是分治法，先将数组分成子序列，让子序列有序，再将子序列间有序，合并成有序数组。
 
@@ -107,7 +107,7 @@ class Solution:
 
 内存消耗 :20.5 MB, 在所有 Python3 提交中击败了100.00%的用户
 
-###快速排序（Quick Sort）
+##快速排序（Quick Sort）
 
 用（list）分为两个子串（sub-lists）,选取一个“哨兵”(pivot)（通常选用数组的第一个数或最后一个数），
 将小于pivot放在左边，把大于pivot放在右边，分割成两部分，并且可以固定pivot在数组的位置，在对左右两部分继续进行排序。
@@ -147,3 +147,34 @@ class Solution:
 执行用时 :312 ms, 在所有 Python3 提交中击败了53.15%的用户
 
 内存消耗 :20 MB, 在所有 Python3 提交中击败了100.00%的用户
+
+###随机快排
+### python的code如下：
+```python
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        lens=len(nums)
+        if lens<2:
+            return nums
+        def quick_sort(left,right):
+            if left>=right:
+                return nums
+            pivot=random.randint(left,right)
+            nums[pivot], nums[left] = nums[left], nums[pivot]
+            pivot=left
+            i,j=left,right
+            while i<j:
+                while i<j and nums[j]>nums[pivot]:
+                    j-=1
+                while i<j and nums[i]<=nums[pivot]:
+                    i+=1
+                nums[i],nums[j]=nums[j],nums[i]
+            nums[pivot],nums[j]=nums[j],nums[pivot]
+            quick_sort(left,j-1)
+            quick_sort(j+1,right)
+            return nums
+        return quick_sort(0,lens-1)
+```
+执行用时 :360 ms, 在所有 Python3 提交中击败了39.35%的用户
+
+内存消耗 :19.8 MB, 在所有 Python3 提交中击败了100.00%的用户
