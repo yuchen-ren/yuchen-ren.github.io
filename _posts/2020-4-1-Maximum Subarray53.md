@@ -122,35 +122,4 @@ class Solution:
             ans=max(cur,ans)
         return ans
 ```
-###动态规划
-用dp[i][j]来表示数组中第i个数到第j个数的和，有两种情况：
 
-1、i==j：
-dp[i][j+1]=dp[i][j]+nums[j],
-
-2、i!=j：
-dp[i][j]=nums[j]
-
-时间复杂度：1/2*O(n*n)=O(n*n)。
-空间复杂度：O(n*n)。
-### python的code如下：
-
-
-```python
-class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        lens=len(nums)
-        if lens==1:return nums[0]
-        dp=[[float('-inf')]*lens for i in range(lens)]
-        dp[0][0]=nums[0]
-        ans=float('-inf')
-        for i in range(lens):
-            for j in range(i,lens):
-                if i==j:
-                    dp[i][j]=nums[j]
-                else:
-                    dp[i][j]=dp[i][j-1]+nums[j]
-                ans=max(ans,dp[i][j])
-        return ans
-```
-超出时间限制。。。
