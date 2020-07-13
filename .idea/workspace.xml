@@ -25,12 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-7-12-剑指 Offer 47- 礼物的最大价值.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-7-12-剑指 Offer 47- 礼物的最大价值.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 47- 礼物的最大价值.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1472">
-                <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <first_editor relative-caret-position="1081">
+                <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-7-12-剑指 Offer 12- 矩阵中的路径.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 12- 矩阵中的路径.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="575">
+                <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -64,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-26-Available Captures for Rook999.md" />
         <option value="D:/研一课程/算法分析与设计/作业/第二次/任昱宸-SA19168149-第二次作业/编程作业/max_gap.py" />
         <option value="$PROJECT_DIR$/_posts/2020-3-27-X of a Kind in a Deck of Cards914.md" />
         <option value="$PROJECT_DIR$/_posts/2020-3-28-Implement Trie (Prefix Tree)208.md" />
@@ -115,6 +127,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-6-20-剑指 Offer 63- 股票的最大利润.md" />
         <option value="$PROJECT_DIR$/_posts/2020-6-20-剑指 Offer 42- 连续子数组的最大和.md" />
         <option value="$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 47- 礼物的最大价值.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 12- 矩阵中的路径.md" />
       </list>
     </option>
   </component>
@@ -408,16 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-3-25-Surface Area of 3D Shapes892.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="529">
-            <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-4-Trapping Rain Water42.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -800,8 +803,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 47- 礼物的最大价值.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1472">
-            <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <first_editor relative-caret-position="1081">
+            <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-7-12-剑指 Offer 12- 矩阵中的路径.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="575">
+            <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
