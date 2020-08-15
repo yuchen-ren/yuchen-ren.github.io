@@ -12,19 +12,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2020-7-13-Three Steps Problem LCCI面08.01.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-7-13-Three Steps Problem LCCI面08.01.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1495">
-                <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2020-7-13-Coin LCCI面08.11.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-7-13-Coin LCCI面08.11.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -116,12 +103,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-8-15-House Robber198.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-8-15-House Robber198.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-8-15-House Robber198.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2198">
-                <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+              <first_editor relative-caret-position="1702">
+                <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-8-15-House Robber打家劫舍 II213.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-8-15-House Robber打家劫舍 II213.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1669">
+                <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -155,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-31-Longest Common Subsequence1143.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-1-Maximum Nesting Depth of Two Valid Parentheses Strings1111.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-2-Game of Life289.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-3-String to Integer (atoi)8.md" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-8-12-剑指 Offer 10- II. 青蛙跳台阶问题.md" />
         <option value="$PROJECT_DIR$/_posts/2020-8-14-Minimum Path Sum64.md" />
         <option value="$PROJECT_DIR$/_posts/2020-8-15-House Robber198.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-8-15-House Robber打家劫舍 II213.md" />
       </list>
     </option>
   </component>
@@ -499,7 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/编程作业/generator.py" />
     <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/编程作业/edit_distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -847,8 +846,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-8-15-House Robber198.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2198">
-            <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+          <first_editor relative-caret-position="1702">
+            <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-8-15-House Robber打家劫舍 II213.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1669">
+            <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
