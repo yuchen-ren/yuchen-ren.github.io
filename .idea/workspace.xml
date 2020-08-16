@@ -116,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-8-15-Merge Two Sorted Lists21.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-8-15-Merge Two Sorted Lists21.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-8-15-Merge Two Sorted Lists21.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -129,12 +129,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-3-28-BiNode面17.12.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-3-28-BiNode面17.12.md">
+      <file leaf-file-name="2020-8-16-剑指 Offer 59 - I. 滑动窗口的最大值.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-8-16-剑指 Offer 59 - I. 滑动窗口的最大值.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="1485">
+                <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -155,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-3-25-Surface Area of 3D Shapes892.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-4-Trapping Rain Water42.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-5-LFU Cache460.md" />
         <option value="$PROJECT_DIR$/_posts/2020-4-6-Edit Distance72.md" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-8-15-Unique Paths62.md" />
         <option value="$PROJECT_DIR$/_posts/2020-8-15-Unique Binary Search Trees96.md" />
         <option value="$PROJECT_DIR$/_posts/2020-8-15-Merge Two Sorted Lists21.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-8-16-剑指 Offer 59 - I. 滑动窗口的最大值.md" />
       </list>
     </option>
   </component>
@@ -499,7 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/generator.py" />
     <entry file="file://D:/研一课程/算法分析与设计/作业/第三次/任昱宸-SA19168149-第三次作业/非编程作业/独立任务最优调度/max_gap.py" />
     <entry file="file://$PROJECT_DIR$/_posts/2020-4-6-Edit Distance72.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -871,6 +870,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1449">
             <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-8-16-剑指 Offer 59 - I. 滑动窗口的最大值.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1485">
+            <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
