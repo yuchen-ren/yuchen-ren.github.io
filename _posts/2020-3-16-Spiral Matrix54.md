@@ -56,33 +56,41 @@ tags:
 ```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        if not matrix:return matrix
-        new=[]
+        res=[]
+        if not matrix:
+            return res
+        count=0
         m=len(matrix)
         n=len(matrix[0])
-        up,down,left,right=0,m,0,n 
+        left,right,up,down=0,n,0,m
         while True:
-            for i in range(left,right):               
-                new.append(matrix[up][i])
+            if count==m*n: break
+            for i in range(left,right):
+                res.append(matrix[up][i])         
+                count+=1
             up+=1
-            if len(new)==m*n:break
+            if count==m*n: break
             for j in range(up,down):
-                new.append(matrix[j][right-1])
+                res.append(matrix[j][right-1])
+                count+=1
             right-=1
-            if len(new)==m*n:break
+            if count==m*n: break
             for k in range(right-1,left-1,-1):
-                new.append(matrix[down-1][k])
+                res.append(matrix[down-1][k])
+                count+=1
             down-=1
-            if len(new)==m*n:break
+            if count==m*n: break
             for l in range(down-1,up-1,-1):
-                new.append(matrix[l][left])
-            left+=1  
-            if len(new)==m*n:break
-        return new
+                res.append(matrix[l][left])
+                count+=1
+            left+=1
+        return res
 ```
-执行用时 :36 ms, 在所有 Python3 提交中击败了57.14%的用户
 
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.11%的用户
+执行用时：36 ms, 在所有 Python3 提交中击败了84.48%的用户
+
+内存消耗：13.7 MB, 在所有 Python3 提交中击败了49.54%的用户
+
 ### c++的code如下：
 
 ```c
